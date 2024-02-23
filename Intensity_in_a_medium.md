@@ -9,7 +9,7 @@ Quite often people refer the intensity as $I \sim |E|^2$ but more precisely, the
 $$I =\frac12  c \cdot n \cdot \epsilon_0 \cdot |E|^2$$
 
 where $c$ is the speed of light in $\mathrm{m/s}$, $n$ is the refractive index in a medium and $\epsilon_0 = 8.854... \cdot 10^{−12} \mathrm{Fm^-1}$.
-The units of $[I] = \mathrm{J / m^2 / s}$ so this is a physical power. To get the absolute energy, integrate over area and time.
+The units of $[I] = \mathrm{J / m^2 / s}$ so this is a physical power per area. To get the absolute energy, integrate over area and time.
 
 ## Paradoxon
 Using that equation naively, would mean that a beam propagating in a medium with $n>1$, the intensity is higher than in vacuum? This contradicts energy conservation.
