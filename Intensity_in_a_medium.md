@@ -55,8 +55,7 @@ $$\frac12  c \cdot n_1 \cdot \epsilon_0 |E_i|^2  = \frac12  c \cdot n_1 \cdot \e
 
 $$n_1 |E_i|^2  = n_1  |r_s \cdot E_i|^2  + n_2 |t_s\cdot E_i|^2$$
 
-$$n_1 = n_1 \frac{n_1^2 + n_2^2 - 2\cdot n_1 \cdot n_2}{(n_1 + n_2)^2} + n_2 \frac{4\cdot n_1\cdot n_2}{(n_1 + n_2)^2}$$
-
+$$n_1 = n_1 \frac{n_1^2 + n_2^2 - 2\cdot n_1 \cdot n_2}{(n_1 + n_2)^2} + n_2 \frac{4\cdot n_1^2}{(n_1 + n_2)^2}$$
 
 $$1 = 1 \frac{n_1^2 + n_2^2 - 2\cdot n_1 \cdot n_2 + 4\cdot n_1 \cdot n_2}{(n_1 + n_2)^2} $$
 
