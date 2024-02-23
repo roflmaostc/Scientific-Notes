@@ -16,6 +16,9 @@ Using that equation naively, would mean that a beam propagating in a medium with
 How to solve it?
 
 ## Solution
+<details>
+<summary>Click for solution. But try to solve it yourself :)</summary>
+  
 Let's consider the situation, that a beam $E_i$ hits a interface surface.
 So there will be a certain field propagation inside the medium $n_2$ ($E_t$) and one in medium $n_1$ which is reflected ($E_r$).
 ```
@@ -65,3 +68,4 @@ Now both sides are equivalent.
 So the take home message is:
 Such that the energy balances really work out, you have to use the proper intensity definition and not only $|E|^2$. It is easy to forget some scaling factors because of the refractive indices.
 Effectively it also means, that the field amplitude is smaller if propagating in a medium with $n>1$ instead of vacuum.
+</details>
