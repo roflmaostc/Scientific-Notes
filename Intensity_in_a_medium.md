@@ -4,11 +4,11 @@ An scalar eletrical wave is given by
 $$E = A \cdot \exp(i \cdot \phi)$$
 
 Where $A$ has the units of $\mathrm{V/m}$.
-Quite often people refer the intensity as $I \sim |E|^2$ but more precisely, the intensity is given by
+Quite often people refer the intensity as $I \sim |E|^2$ but more precisely, the [intensity](https://en.wikipedia.org/wiki/Intensity_(physics)#Mathematical_description) is given by
 
 $$I =\frac12  c \cdot n \cdot \epsilon_0 \cdot |E|^2$$
 
-where $c$ is the speed of light in $\mathrm{m/s}$, $n$ is the refractive index in a medium and $\epsilon_0 = 8.854 \cdot 10^{−12} \mathrm{Fm^-1}$.
+where $c$ is the speed of light in $\mathrm{m/s}$, $n$ is the refractive index in a medium and $\epsilon_0 = 8.854... \cdot 10^{−12} \mathrm{Fm^-1}$.
 The units of $[I] = \mathrm{J / m^2 / s}$ so this is a physical power. To get the absolute energy, integrate over area and time.
 
 ## Paradoxon
@@ -31,7 +31,7 @@ According to energy conservation, we have to expect $I_i = I_t + I_r$ for the be
 How to we obtain $I_t$?
 Simply use 
 
-$$I_t = \frac12 c \cdot n_1 \cdot \epsilon_0 |E_t|^2$$.
+$$I_t = \frac12 c \cdot n_1 \cdot \epsilon_0 |E_t|^2.$$
 
 How do we obtain $E_t?$ 
 Simply using the [complex Fresnel coeffients](https://en.wikipedia.org/wiki/Fresnel_equations#Complex_amplitude_reflection_and_transmission_coefficients).
@@ -65,4 +65,4 @@ $$1 = 1 \frac{n_1^2 + n_2^2 + 2\cdot n_1 \cdot n_2}{(n_1 + n_2)^2} $$
 Now both sides are equivalent.
 So the take home message is:
 Such that the energy balances really work out, you have to use the proper intensity definition and not only $|E|^2$. It is easy to forget some scaling factors because of the refractive indices.
-
+Effectively it also means, that the field amplitude is smaller if propagating in a medium with $n>1$ instead of vacuum.
