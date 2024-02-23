@@ -21,6 +21,7 @@ How to solve it?
 <br>
 Let's consider the situation, that a beam $E_i$ hits a interface surface.
 So there will be a certain field propagation inside the medium $n_2$ ($E_t$) and one in medium $n_1$ which is reflected ($E_r$).
+  
 ```
 medium n1     | medium n2
                |
