@@ -12,14 +12,15 @@ where $c$ is the speed of light in $\mathrm{m/s}$, $n$ is the refractive index i
 The units of $[I] = \mathrm{J / m^2 / s}$ so this is a physical power per area. To get the absolute energy, integrate over area and time.
 
 ## Paradoxon
-Using that equation naively, would mean that a beam propagating in a medium with $n>1$, the intensity is higher than in vacuum? This contradicts energy conservation.
-How to solve it?
+Does it imply that a beam propagating in a medium with $n>1$ that the intensity is higher than in vacuum? This clearly contradicts energy conservation.
+So how to solve it?
 
 ## Solution
 <details>
 <summary>Click for solution. But try to solve it yourself :)</summary>
 <br>
-Let's consider the situation, that a beam $E_i$ hits a interface surface.
+They key is to consider, how to *transport* that beam into the medium.
+Let's consider the situation, that a beam $E_i$ hits an interface surface.
 So there will be a certain field propagation inside the medium $n_2$ ($E_t$) and one in medium $n_1$ which is reflected ($E_r$).
   
 ```
