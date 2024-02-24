@@ -24,12 +24,12 @@ Let's consider the situation, that a beam $E_i$ hits an interface surface.
 So there will be a certain field propagation inside the medium $n_2$ ($E_t$) and one in medium $n_1$ which is reflected ($E_r$).
   
 ```
-medium n1     | medium n2
-               |
-               |
-      Ei ---->|---->Et
-      <-----Er|
-               |
+medium n1   | medium n2
+            |
+            |
+    Ei ---->|---->Et
+    <-----Er|
+            |
 ```
 
 According to energy conservation, we have to expect $I_i = I_t + I_r$ for the beam intensities.
